@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Datasets (keep split index files)
+datasets/**/*.png
+datasets/**/*.jpg
+datasets/**/*.bmp
+datasets/**/*.mat
+!datasets/**/img_idx/*.txt
+!datasets/**/.gitkeep
+
+# Training outputs & checkpoints
+results/
+result/
+weights/
+*.pkl
+*.pth
+*.ckpt
+*.log
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
